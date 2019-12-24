@@ -1,0 +1,60 @@
+#myCanvas {
+  border: 3px inset rgb(91, 248, 0);
+  float: left;
+  background-image: url(https://i.pinimg.com/736x/66/de/7d/66de7de85c571fb303685aab1d9857bb.jpg);
+}
+
+#controls {
+  color: bisque;
+  float: left;
+  list-style: none;
+  width: 350px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  position: absolute;
+  left: calc(60% - 125px);
+  border: 1px solid #B71C1C;
+  background-color: #F44336;
+  font-size: 24px;
+  text-shadow: #333 2px 2px 2px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 2px solid;
+  outline-color: rgba(255, 255, 255, 0.6);
+}
+
+#history{
+  color: bisque;
+  list-style: none;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  text-shadow: #333 2px 2px 2px;
+}
+
+#gameLevel{
+  color: bisque;
+  font-size: 24px;
+}
+
+#panelRight {
+  margin-left: 20px;
+  float: left;
+}
+
+
+
+.c-body{
+background-color: green;
+}
+
+/*.c-body {
+  background: -webkit-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px, -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px, -webkit-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px, -webkit-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px, -webkit-linear-gradient(left, #1b1b1b 10px, transparent 10px), -webkit-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+/*
+.c-body {
+  background-image: url(https://static-steelkiwi-dev.s3.amazonaws.com/media/filer_public/20/8d/208d6d8d-7690-4618-9aa1-5921c9285343/796131d5-3dda-45c7-a3e1-cffeaa820295.gif);
+}
+*/
+

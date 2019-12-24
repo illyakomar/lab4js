@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ball game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="c-body">
+        <div id="controls">
+            <label>Налаштування:</label>
+            <p></p>
+            <label for="nbBalls">Кількість кульок: </label>
+            <input type="number" min=1 max=30 value=10 id="nbBalls" oninput="changeNbBalls(this.value);">
+            <p></p>
+            <label for="nbWrongBalls">Кількість ворожих кульок: </label>
+            <input type="number" min=1 max=5 value=3 id="nbWrongBalls" oninput="changeNbWrongBalls(this.value);">
+            <p></p>
+            <label for="selectColorOfBallToEat">Колір який потрібно з'їсти: </label>
+            <select onchange="changeColorToEat(this.value);" id="selectColorOfBallToEat">
+        <option value='red'>red</option>
+        <option value='blue'>blue</option>
+        <option value='green'>green</option>
+    </select>
+            <p></p>
+            <label for="ballSpeed">Швидкість куль: </label> - <input type="range" value='1' min=0.1 max=3 step=0.1 id="ballSpeed"> +
+            <p></p>
+        </div>
+        <canvas id="myCanvas" width="640" height="900" ></canvas>
+        <section id="panelRight">
+            <p id="gameLevel"></p>
+            <button id="restart">Перезапустити гру</button>
+            <div id="history"></div>
+    </section>
+
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
